@@ -10,7 +10,7 @@ import ScrollableChat from '../components/ScrollableChat';
 import "./styles.css";
 import io from 'socket.io-client';
 
-const ENDPOINT = "https://capstone-heyjude.herokuapp.com/";
+const ENDPOINT = "https://final-heyjude.herokuapp.com/";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
